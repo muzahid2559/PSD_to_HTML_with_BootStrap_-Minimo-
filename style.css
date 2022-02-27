@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+@font-face{
+    font-family: 'Playfair Display', serif;;
+}
+*{
+    font-family: 'Playfair Display', serif;;
+}
+html{
+   scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* menu part css start */
+#header{
+    padding: 40px 0;
+}
+.menu ul li{
+padding: 0 20px;
+}
+.menu ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262 !important;
+    text-transform: uppercase;
+}
+/* menu part css end */
+/* comment part css start */
+#comment-part{
+    padding: 80px 0;
+}
+#comment-part h5{
+    color: #626262;
+    text-transform: uppercase;
+}
+#comment-part h1{
+    color: #818181;
+    font-size: 30px;
+    font-weight: 700;
+}
+#comment-part p{
+    color: #818181;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+}
+/* comment part css end */
+/* gallery part css start */
+#gallery{
+    padding: 80px 0;
+}
+.gallery-content h5{
+    color: #818181;
+    padding: 15px 0 0 0;
+    text-transform: uppercase;
+}
+.gallery-content h3{
+    color: #626262;
+    padding: 15px 0;
+}
+.gallery-content p{
+    color: #626262;
+    text-align: justify;
+}
+/* gallery part css end  */
+
+/* sign up part css start */
+#sign-up{
+    padding: 80px 0;
+    background-color: #f0f0f0;
+}
+.sign h3{
+    color: #626262;
+    padding: 60px 0;
+}
+.input-group{
+    border-bottom: solid 2px;
+    
+} 
+.form-custom{
+   border: none; 
+   background-color: transparent;
+}
+.input-group .btn {
+	background-color: transparent;
+    border: none;
+}
+/* sign up part css end */
+/* gallery two part css start */
+.btn-custom{
+    border:1px solid #626262;
+    border-radius: 0;
+    color: #626262;
+    font-weight: 700;
+    padding: 10px 25px;
+}
+/* gallery two part css end */
+
+/* footer part css start  */
+.terms ul li a{
+    color: #626262 !important;
+}
+.follow{
+    text-align: right;
+}
+.follow ul li a{
+    color: #626262 !important;
+}
+.follow ul li a .icon{
+    color: #626262 !important;
+}
+/* footer part css end  */

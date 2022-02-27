@@ -1,0 +1,58 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 451.98px){
+/* menu part start */
+/* menu part start */
+.menu ul li {
+    text-align: center;
+}
+.terms ul li {
+  display: block !important;
+}
+/* menu part end */
+/* menu part end */  
+}
+/*`sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 452px) and (max-width: 575.98px) { 
+/* menu part start */
+.menu ul li a{
+    text-align: center;
+}
+/* menu part end */
+   
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* menu part start */
+.menu ul li {
+    text-align: center;
+}
+/* menu part end */
+/* gallery part start */
+.gallery-content p {
+    font-size: 14px;
+}   
+.gallery-content h5 {
+    font-size: 15px;
+}
+.gallery-content h3 {
+    font-size: 22px;
+}
+/* gallery part end */
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ /* menu part start */
+.menu ul li {
+    text-align: center;
+}
+/* menu part end */
+}
+ /* X-Large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
